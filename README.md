@@ -1,10 +1,13 @@
 # Charlotte SAC Coding Meeting nfl_data_py Intro
+
+![epa_plot.png](https://github.com/Aeason06/SAC-Coding-Meeting-nfl_data_py-Intro/blob/main/epa_plot.png)
+
 Unfortunately, installing this package sucks. It works as intended on Python versions 3.10-12, but  we are going to try to get around installing older Python versions by using this line to install nfl_data_py. <br>
 ```Python
 !pip install numpy>=2.0 pandas fastparquet appdirs && pip install nfl_data_py --no-deps
 ```
 
-If you run that and no errors pop up, run this line in a new cell and see if a table pops up.
+If you run that and no errors pop up, run this line in a new cell and see if a table appears.
 ```Python
 nfl.import_ngs_data(stat_type = 'passing', years = [2016])
 ```
