@@ -23,7 +23,10 @@ Expected Points Added (EPA) is a measure of success which defines the value of e
 Foundationally, EPA is the difference in Expected Points before and after each play. Expected points is an estimate of how many points a team will score on a drive, given the current situation (Down, Distance, Time Remaining, etc.). Intuitively, as a team gets closer to its opposing end zone, the higher the expected points of the drive. 
 
 Additionally, EPA can be aggregated and attributed to individual players. Such ratings are much more reliable in assessing a player’s contribution to the offense than many basic statistics, such as yards-per-attempt, completion percentage, etc. 
-# Stop here for now
+
+https://www.pff.com/news/bet-nfl-bet-terms-metrics-game-script-handicapping-success-rate-epa
+
+# Stop Here
 Code for making the plot with comments to explain whats going on. 
 ```Python
 # Initialize a dictionary to store downloaded logos so we don't fetch the same image twice
