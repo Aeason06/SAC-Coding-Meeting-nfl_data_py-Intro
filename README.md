@@ -6,6 +6,7 @@ Unfortunately, installing this package sucks. It works as intended on Python ver
 
 If you run that and no errors pop up, run this line in a new cell and see if a table appears.
 ```Python
+import nfl_data_py as nfl
 nfl.import_ngs_data(stat_type = 'passing', years = [2016])
 ```
 
