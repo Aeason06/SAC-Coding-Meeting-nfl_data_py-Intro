@@ -17,6 +17,12 @@ You should already have this, but run this line just to make sure.
 ```Python
 !pip install Pillow
 ```
+# EPA Definition
+Expected Points Added (EPA) is a measure of success which defines the value of each play by the effect it has on the offense's likelihood to score. For every play, EPA is attributed equally to both teams, and the metric is fairly reliable in identifying the best teams in football. It is common practice to discuss EPA on a per-play basis (EPA / Play), so that the stat is normalized for any disparity in total plays run. 
+
+Foundationally, EPA is the difference in Expected Points before and after each play. Expected points is an estimate of how many points a team will score on a drive, given the current situation (Down, Distance, Time Remaining, etc.). Intuitively, as a team gets closer to its opposing end zone, the higher the expected points of the drive. 
+
+Additionally, EPA can be aggregated and attributed to individual players. Such ratings are much more reliable in assessing a player’s contribution to the offense than many basic statistics, such as yards-per-attempt, completion percentage, etc. 
 # Stop here for now
 Code for making the plot with comments to explain whats going on. 
 ```Python
