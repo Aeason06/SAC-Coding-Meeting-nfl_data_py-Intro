@@ -93,5 +93,3 @@ ax.set_title('AVG Rush EPA vs AVG Pass EPA (2025)')
 # Display the final visualization
 plt.show()
 ```
-Hopefully, you get something like this: <br>
-![epa_plot.png](https://github.com/Aeason06/SAC-Coding-Meeting-nfl_data_py-Intro/blob/main/epa_plot.png)
