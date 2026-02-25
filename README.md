@@ -1,12 +1,12 @@
 # Charlotte SAC Coding Meeting nfl_data_py Intro
 Unfortunately, installing this package sucks. It works as intended on Python versions 3.10-12, but  we are going to try to get around installing older Python versions by using this line to install nfl_data_py. <br>
 
-Just in case we can't get nfl_data_py working: <br>
-https://drive.google.com/file/d/1le81WZUU1XdO5W_PK1ZqUd-1GZwm-ZLA/view?usp=drive_link
-
 ```Python
 !pip install numpy>=2.0 pandas fastparquet appdirs && pip install nfl_data_py --no-deps
 ```
+Just in case we can't get nfl_data_py working: <br>
+https://drive.google.com/file/d/1le81WZUU1XdO5W_PK1ZqUd-1GZwm-ZLA/view?usp=drive_link <br>
+
 You should already have this, but run this line just to make sure.
 ```Python
 !pip install Pillow
