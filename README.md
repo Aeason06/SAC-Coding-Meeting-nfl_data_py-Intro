@@ -1,9 +1,14 @@
 # Charlotte SAC Coding Meeting nfl_data_py Intro
 Unfortunately, installing this package sucks. It works as intended on Python versions 3.10-12, but  we are going to try to get around installing older Python versions by using this line to install nfl_data_py. <br>
-
 ```Python
 !pip install numpy>=2.0 pandas fastparquet appdirs && pip install nfl_data_py --no-deps
 ```
+
+If you run that and no errors pop up, run this line in a new cell and see if a table pops up.
+```Python
+nfl.import_ngs_data(stat_type = 'passing', years = [2016])
+```
+
 Just in case we can't get nfl_data_py working: <br>
 https://drive.google.com/file/d/1le81WZUU1XdO5W_PK1ZqUd-1GZwm-ZLA/view?usp=drive_link <br>
 
@@ -11,7 +16,7 @@ You should already have this, but run this line just to make sure.
 ```Python
 !pip install Pillow
 ```
-Code for making plot with comments to explain. 
+Code for making the plot with comments to explain whats going on. 
 ```Python
 # Initialize a dictionary to store downloaded logos so we don't fetch the same image twice
 logo_cache = {}
