@@ -16,7 +16,7 @@ You should already have this, but run this line just to make sure.
 ```Python
 !pip install Pillow
 ```
-# Stop here for now.
+# Stop here for now
 Code for making the plot with comments to explain whats going on. 
 ```Python
 # Initialize a dictionary to store downloaded logos so we don't fetch the same image twice
