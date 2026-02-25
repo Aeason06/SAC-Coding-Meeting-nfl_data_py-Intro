@@ -1,6 +1,5 @@
 # Charlotte SAC Coding Meeting nfl_data_py Intro
 Unfortunately, installing this package sucks. It works as intended on Python versions 3.10-12, but to avoid having to install older Python versions, we are going to try to get around this by using this line to install nfl_data_py. <br>
-
 I have never helped anyone install this package before, so if this doesn't work, we are going to use ChatGPT to figure it out.
 
 ```Python
