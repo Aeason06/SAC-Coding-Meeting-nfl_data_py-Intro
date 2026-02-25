@@ -1,7 +1,4 @@
 # Charlotte SAC Coding Meeting nfl_data_py Intro
-
-![epa_plot.png](https://github.com/Aeason06/SAC-Coding-Meeting-nfl_data_py-Intro/blob/main/epa_plot.png)
-
 Unfortunately, installing this package sucks. It works as intended on Python versions 3.10-12, but  we are going to try to get around installing older Python versions by using this line to install nfl_data_py. <br>
 ```Python
 !pip install numpy>=2.0 pandas fastparquet appdirs && pip install nfl_data_py --no-deps
@@ -96,3 +93,5 @@ ax.set_title('AVG Rush EPA vs AVG Pass EPA (2025)')
 # Display the final visualization
 plt.show()
 ```
+Hopefully, you get something like this: <br>
+![epa_plot.png](https://github.com/Aeason06/SAC-Coding-Meeting-nfl_data_py-Intro/blob/main/epa_plot.png)
