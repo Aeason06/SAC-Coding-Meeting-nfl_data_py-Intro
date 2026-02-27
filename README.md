@@ -7,7 +7,7 @@ Unfortunately, installing this package sucks. It works as intended on Python ver
 If you run that and no errors pop up, run this line in a new cell and see if a table appears.
 ```Python
 import nfl_data_py as nfl
-nfl.import_ngs_data(stat_type = 'passing', years = [2016])
+nfl.import_pbp_data(years = [2025])
 ```
 
 Just in case we can't get nfl_data_py working: <br>
@@ -22,6 +22,8 @@ All imports that we will need.
 ```Python
 import nfl_data_py as nfl
 import pandas as pd
+
+# All imports for plotting.
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
